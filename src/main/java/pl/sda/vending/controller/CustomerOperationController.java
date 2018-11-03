@@ -10,22 +10,34 @@ public class CustomerOperationController {
     }
 
     public void printMachine() {
-        for (int row = 0; row < machine.rowsCount(); row++) {
-            for (int col = 0; col < machine.colsCount(); col++) {
-                System.out.print("+--------+");
+        for (int rowNo = 0; rowNo < machine.rowsCount(); rowNo++) {
+            for (int colNo = 0; colNo < machine.colsCount(); colNo++) {
+                printUpperBoundary(rowNo, colNo);
             }
             System.out.println();
 
-            for (int col = 0; col < machine.colsCount(); col++) {
-//                char symbolLetter = (char) ('A' + row);
-//                int symbolNumber = col + 1;
-                System.out.print("|   " + (char) (row + 1 + 64) + (col + 1) /* symbolLetter + symbolNumber */ + "   |");
+            for (int colNo = 0; colNo < machine.colsCount(); colNo++) {
+                printSymbol(rowNo, colNo);
             }
             System.out.println();
-            for (int col = 0; col < machine.colsCount(); col++) {
-                System.out.print("+--------+");
+            for (int colNo = 0; colNo < machine.colsCount(); colNo++) {
+                printLowerBoundary(rowNo, colNo);
             }
             System.out.println();
         }
+    }
+
+    private void printUpperBoundary(int rowNo, int colNo) {
+        System.out.print("+--------+");
+    }
+
+    private void printSymbol(int rowNo, int colNo) {
+        char symbolLetter = (char) ('A' + rowNo);
+        int symbolNumber = colNo + 1;
+        System.out.print("|   " + symbolLetter + symbolNumber + "   |");
+    }
+
+    private void printLowerBoundary(int rowNo, int colNo) {
+        System.out.print("+--------+");
     }
 }
