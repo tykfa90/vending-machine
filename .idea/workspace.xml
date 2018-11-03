@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406bb3de-06f0-459b-8d46-201e83050b1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,30 +24,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="9" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="10" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="3" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="45" />
-          <entry key="java" value="2874" />
+          <entry key="java" value="3462" />
           <entry key="properties" value="93" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2874" />
+          <entry key="JAVA" value="3462" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="Properties" value="93" />
           <entry key="XML" value="2" />
@@ -62,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +75,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="362">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/model/VendingMachineTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
               <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,29 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -159,9 +142,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/model/VendingMachineTest.java" />
       </list>
     </option>
   </component>
@@ -324,6 +308,17 @@
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
               <item name="vending" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="vending" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,17 +337,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541248283395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541251532512" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.sda.vending.model" />
       <recent name="pl.sda.vending.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -371,99 +367,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigurationTest">
-    <configuration name="ConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VendingMachineTest.shouldCreateMachineWhenProperlyConfigured">
+    <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.VendingMachineTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTest.shouldCreateMachineWhenProperlyConfigured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
-      <option name="METHOD_NAME" value="shouldReturnDefaultLongValueWhenPropertyIsSet" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.VendingMachineTest" />
+      <option name="METHOD_NAME" value="shouldCreateMachineWhenProperlyConfigured" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTest.shouldThrowExceptionWhenTooManyColumnsConfigured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
-      <option name="METHOD_NAME" value="shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.VendingMachineTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenTooManyColumnsConfigured" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTest.shouldThrowExceptionWhenTooManyRowsConfigured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
-      <option name="METHOD_NAME" value="shouldReturnSetLongValueWhenPropertyIsProvided" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.VendingMachineTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenTooManyRowsConfigured" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTest.shouldThrowExceptionWhenZeroColumnsConfigured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
-      <option name="METHOD_NAME" value="shouldReturnSetStringValueWhenPropertyIsProvided" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.VendingMachineTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenZeroColumnsConfigured" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
-      <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" />
-      <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" />
-      <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" />
-      <item itemvalue="JUnit.ConfigurationTest" />
+      <item itemvalue="JUnit.VendingMachineTest" />
+      <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenZeroColumnsConfigured" />
+      <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenTooManyRowsConfigured" />
+      <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenTooManyColumnsConfigured" />
+      <item itemvalue="JUnit.VendingMachineTest.shouldCreateMachineWhenProperlyConfigured" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConfigurationTest" />
-        <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" />
-        <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" />
-        <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" />
-        <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
+        <item itemvalue="JUnit.VendingMachineTest.shouldCreateMachineWhenProperlyConfigured" />
+        <item itemvalue="JUnit.VendingMachineTest" />
+        <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenTooManyColumnsConfigured" />
+        <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenTooManyRowsConfigured" />
+        <item itemvalue="JUnit.VendingMachineTest.shouldThrowExceptionWhenZeroColumnsConfigured" />
       </list>
     </recent_temporary>
   </component>
@@ -481,42 +477,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigurationTest_shouldReturnDefaultStringValueWhenPropertyIsUnknown - 2018.11.03 at 12h 20m 15s.xml">
-      <configuration name="ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnDefaultLongValueWhenPropertyIsSet - 2018.11.03 at 12h 31m 15s.xml">
-      <configuration name="ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnSetStringValueWhenPropertyIsProvided - 2018.11.03 at 12h 37m 13s.xml">
-      <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 38m 41s.xml">
-      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 40m 18s.xml">
-      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigurationTest - 2018.11.03 at 12h 40m 29s.xml">
+    <history-entry file="ConfigurationTest - 2018.11.03 at 13h 49m 45s.xml">
       <configuration name="ConfigurationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnSetStringValueWhenPropertyIsProvided - 2018.11.03 at 12h 45m 25s.xml">
-      <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" configurationId="JUnit" />
+    <history-entry file="VendingMachineTest - 2018.11.03 at 14h 00m 49s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 45m 45s.xml">
-      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
+    <history-entry file="VendingMachineTest - 2018.11.03 at 14h 07m 22s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigurationTest - 2018.11.03 at 13h 18m 14s.xml">
-      <configuration name="ConfigurationTest" configurationId="JUnit" />
+    <history-entry file="VendingMachineTest - 2018.11.03 at 14h 08m 28s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigurationTest - 2018.11.03 at 13h 18m 28s.xml">
-      <configuration name="ConfigurationTest" configurationId="JUnit" />
+    <history-entry file="VendingMachineTest_shouldThrowExceptionWhenZeroColumnsConfigured - 2018.11.03 at 14h 10m 09s.xml">
+      <configuration name="VendingMachineTest.shouldThrowExceptionWhenZeroColumnsConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_shouldThrowExceptionWhenZeroColumnsConfigured - 2018.11.03 at 14h 13m 14s.xml">
+      <configuration name="VendingMachineTest.shouldThrowExceptionWhenZeroColumnsConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_shouldThrowExceptionWhenTooManyRowsConfigured - 2018.11.03 at 14h 15m 49s.xml">
+      <configuration name="VendingMachineTest.shouldThrowExceptionWhenTooManyRowsConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_shouldThrowExceptionWhenTooManyColumnsConfigured - 2018.11.03 at 14h 16m 17s.xml">
+      <configuration name="VendingMachineTest.shouldThrowExceptionWhenTooManyColumnsConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest - 2018.11.03 at 14h 16m 30s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest - 2018.11.03 at 14h 17m 31s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25302014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,37 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -620,17 +585,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,10 +602,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/model/VendingMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
