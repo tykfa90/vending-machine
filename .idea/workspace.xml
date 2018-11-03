@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406bb3de-06f0-459b-8d46-201e83050b1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vending-machine-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vending-machine-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,32 +26,39 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="4" />
+          <entry key="java" value="8" />
+          <entry key="properties" value="4" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="4" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="45" />
-          <entry key="java" value="953" />
+          <entry key="java" value="2737" />
+          <entry key="properties" value="93" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="953" />
+          <entry key="JAVA" value="2737" />
           <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Properties" value="93" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vending-machine-project" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -69,31 +78,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="969">
+              <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
               <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,6 +129,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -115,9 +141,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java" />
       </list>
     </option>
   </component>
@@ -217,7 +247,77 @@
               <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="vending" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="vending" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="vending" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vending-machine-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vending-machine-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,12 +328,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541239216772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247492212" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.sda.vending.util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,23 +357,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.Main" />
+  <component name="RunManager" selected="JUnit.ConfigurationTest">
+    <configuration name="ConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.*" />
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vending-machine-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
+      <option name="METHOD_NAME" value="shouldReturnDefaultLongValueWhenPropertyIsSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vending-machine-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
+      <option name="METHOD_NAME" value="shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vending-machine-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
+      <option name="METHOD_NAME" value="shouldReturnSetLongValueWhenPropertyIsProvided" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vending-machine-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.ConfigurationTest" />
+      <option name="METHOD_NAME" value="shouldReturnSetStringValueWhenPropertyIsProvided" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
+      <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" />
+      <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" />
+      <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" />
+      <item itemvalue="JUnit.ConfigurationTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ConfigurationTest" />
+        <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" />
+        <item itemvalue="JUnit.ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" />
+        <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" />
+        <item itemvalue="JUnit.ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" />
       </list>
     </recent_temporary>
   </component>
@@ -280,17 +466,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ConfigurationTest_shouldReturnDefaultStringValueWhenPropertyIsUnknown - 2018.11.03 at 12h 20m 15s.xml">
+      <configuration name="ConfigurationTest.shouldReturnDefaultStringValueWhenPropertyIsUnknown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnDefaultLongValueWhenPropertyIsSet - 2018.11.03 at 12h 31m 15s.xml">
+      <configuration name="ConfigurationTest.shouldReturnDefaultLongValueWhenPropertyIsSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnSetStringValueWhenPropertyIsProvided - 2018.11.03 at 12h 37m 13s.xml">
+      <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 38m 41s.xml">
+      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 40m 18s.xml">
+      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest - 2018.11.03 at 12h 40m 29s.xml">
+      <configuration name="ConfigurationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnSetStringValueWhenPropertyIsProvided - 2018.11.03 at 12h 45m 25s.xml">
+      <configuration name="ConfigurationTest.shouldReturnSetStringValueWhenPropertyIsProvided" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_shouldReturnSetLongValueWhenPropertyIsProvided - 2018.11.03 at 12h 45m 45s.xml">
+      <configuration name="ConfigurationTest.shouldReturnSetLongValueWhenPropertyIsProvided" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25302014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.25302014" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -356,15 +568,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,17 +593,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/ConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
