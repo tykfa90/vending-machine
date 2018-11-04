@@ -8,4 +8,8 @@ public class StringUtil {
         }
         return expandedText.substring(0, expectedLength);
     }
+
+    public static String formatMoney(Long amount) {
+        return "";
+    }
 }
