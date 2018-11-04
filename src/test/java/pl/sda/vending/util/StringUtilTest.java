@@ -64,12 +64,12 @@ public class StringUtilTest {
         assertEquals(expectedResult, formattedMoney);
     }
 
-    public Object[] parametersForShouldProperlyFormat() {
+    public Object[] parametersForShouldProperlyFormatMoney() {
         return new Object[]{
+                new Object[]{0L, "0,00"},
+                new Object[]{5L, "0,05"},
+                new Object[]{12L, "0,12"},
                 new Object[]{123L, "1,23"},
-                new Object[]{0, "0,00"},
-                new Object[]{5, "0,05"},
-                new Object[]{12, "0,12"},
                 new Object[]{1234L, "12,34"},
                 new Object[]{12345L, "123,45"},
                 new Object[]{123456L, "1 234,56"},

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406bb3de-06f0-459b-8d46-201e83050b1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__pl_pragmatists_JUnitParams_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vending-machine-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vending-machine-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java" afterDir="false" />
     </list>
@@ -29,6 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="java" value="17" />
           <entry key="properties" value="5" />
@@ -37,6 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="JAVA" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="5" />
@@ -47,14 +45,14 @@
         <counts>
           <entry key="dummy" value="23" />
           <entry key="gitignore" value="45" />
-          <entry key="java" value="8656" />
+          <entry key="java" value="10025" />
           <entry key="properties" value="93" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8656" />
+          <entry key="JAVA" value="10025" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Properties" value="93" />
           <entry key="XML" value="13" />
@@ -94,12 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -107,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="385">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,9 +137,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" />
       </list>
     </option>
   </component>
@@ -337,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541327843802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541332632809" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -383,6 +377,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilTest.parametersForShouldProperlyFormatMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vending-machine-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.StringUtilTest" />
+      <option name="METHOD_NAME" value="parametersForShouldProperlyFormatMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUtilTest.shouldCenterEvenLengthText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
@@ -415,22 +425,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.shouldReturnUnmodifiedTextIfLengthMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vending-machine-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="shouldReturnUnmodifiedTextIfLengthMatches" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringUtilTest.shouldTrimTooLongText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
@@ -448,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringUtilTest.shouldReturnUnmodifiedTextIfLengthMatches" />
       <item itemvalue="JUnit.StringUtilTest.shouldTrimTooLongText" />
       <item itemvalue="JUnit.StringUtilTest.shouldCenterEvenLengthText" />
       <item itemvalue="JUnit.StringUtilTest" />
       <item itemvalue="JUnit.StringUtilTest.shouldProperlyFormatMoney" />
+      <item itemvalue="JUnit.StringUtilTest.parametersForShouldProperlyFormatMoney" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringUtilTest.shouldProperlyFormatMoney" />
+        <item itemvalue="JUnit.StringUtilTest.parametersForShouldProperlyFormatMoney" />
         <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.StringUtilTest.shouldTrimTooLongText" />
         <item itemvalue="JUnit.StringUtilTest.shouldCenterEvenLengthText" />
-        <item itemvalue="JUnit.StringUtilTest.shouldReturnUnmodifiedTextIfLengthMatches" />
       </list>
     </recent_temporary>
   </component>
@@ -478,42 +472,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringUtilTest_shouldReturnUnmodifiedTextIfLengthMatches - 2018.11.04 at 10h 48m 11s.xml">
-      <configuration name="StringUtilTest.shouldReturnUnmodifiedTextIfLengthMatches" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldTrimTooLongText - 2018.11.04 at 10h 54m 04s.xml">
-      <configuration name="StringUtilTest.shouldTrimTooLongText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldTrimTooLongText - 2018.11.04 at 10h 58m 18s.xml">
-      <configuration name="StringUtilTest.shouldTrimTooLongText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldTrimTooLongText - 2018.11.04 at 10h 58m 53s.xml">
-      <configuration name="StringUtilTest.shouldTrimTooLongText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldCenterEvenLengthText - 2018.11.04 at 11h 02m 37s.xml">
-      <configuration name="StringUtilTest.shouldCenterEvenLengthText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldCenterEvenLengthText - 2018.11.04 at 11h 12m 49s.xml">
-      <configuration name="StringUtilTest.shouldCenterEvenLengthText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldCenterEvenLengthText - 2018.11.04 at 11h 26m 37s.xml">
-      <configuration name="StringUtilTest.shouldCenterEvenLengthText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest_shouldTrimTooLongText - 2018.11.04 at 11h 26m 51s.xml">
-      <configuration name="StringUtilTest.shouldTrimTooLongText" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringUtilTest - 2018.11.04 at 11h 30m 31s.xml">
+    <history-entry file="StringUtilTest - 2018.11.04 at 11h 49m 33s.xml">
       <configuration name="StringUtilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringUtilTest - 2018.11.04 at 11h 33m 02s.xml">
+    <history-entry file="StringUtilTest - 2018.11.04 at 11h 50m 41s.xml">
       <configuration name="StringUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest - 2018.11.04 at 11h 51m 50s.xml">
+      <configuration name="StringUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest - 2018.11.04 at 12h 14m 09s.xml">
+      <configuration name="StringUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_parametersForShouldProperlyFormatMoney - 2018.11.04 at 12h 14m 52s.xml">
+      <configuration name="StringUtilTest.parametersForShouldProperlyFormatMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_parametersForShouldProperlyFormatMoney - 2018.11.04 at 12h 14m 54s.xml">
+      <configuration name="StringUtilTest.parametersForShouldProperlyFormatMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_shouldProperlyFormatMoney - 2018.11.04 at 12h 15m 02s.xml">
+      <configuration name="StringUtilTest.shouldProperlyFormatMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_shouldProperlyFormatMoney - 2018.11.04 at 12h 17m 37s.xml">
+      <configuration name="StringUtilTest.shouldProperlyFormatMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_shouldProperlyFormatMoney - 2018.11.04 at 12h 18m 14s.xml">
+      <configuration name="StringUtilTest.shouldProperlyFormatMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringUtilTest_shouldProperlyFormatMoney - 2018.11.04 at 12h 23m 38s.xml">
+      <configuration name="StringUtilTest.shouldProperlyFormatMoney" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25302014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -709,17 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -727,10 +710,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/pl/pragmatists/JUnitParams/1.1.1/JUnitParams-1.1.1.jar!/junitparams/internal/parameters/ParametersReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="385">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
