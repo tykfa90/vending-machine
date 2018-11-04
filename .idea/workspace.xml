@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406bb3de-06f0-459b-8d46-201e83050b1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/vending/model/TrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +29,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="20" />
+          <entry key="java" value="21" />
           <entry key="properties" value="6" />
           <entry key="xml" value="5" />
         </counts>
@@ -36,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="21" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="5" />
@@ -46,14 +47,14 @@
         <counts>
           <entry key="dummy" value="23" />
           <entry key="gitignore" value="45" />
-          <entry key="java" value="11381" />
+          <entry key="java" value="12039" />
           <entry key="properties" value="93" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11381" />
+          <entry key="JAVA" value="12039" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Properties" value="93" />
           <entry key="XML" value="13" />
@@ -66,7 +67,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+            <state relative-caret-position="453">
+              <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#rowsCount#0;class#VendingMachine#0" />
@@ -95,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="901">
+              <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printLowerBoundary#0;class#CustomerOperationController#0" />
@@ -108,22 +109,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
                 <element signature="e#626#627#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/model/TrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,9 +163,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/vending/model/TrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java" />
       </list>
     </option>
   </component>
@@ -352,7 +358,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541338000920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541340063347" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -364,8 +370,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="pl.sda.vending.util" />
       <recent name="pl.sda.vending.model" />
+      <recent name="pl.sda.vending.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -443,36 +449,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.shouldTrimTooLongText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vending-machine-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.vending.util.*" />
+          <option name="PATTERN" value="pl.sda.vending.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.vending.util" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="shouldTrimTooLongText" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pl.sda.vending.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.vending.model.TrayTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringUtilTest.shouldTrimTooLongText" />
       <item itemvalue="JUnit.StringUtilTest" />
       <item itemvalue="JUnit.StringUtilTest.shouldProperlyFormatMoney" />
       <item itemvalue="JUnit.StringUtilTest.parametersForShouldProperlyFormatMoney" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TrayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TrayTest" />
         <item itemvalue="JUnit.StringUtilTest.shouldProperlyFormatMoney" />
         <item itemvalue="JUnit.StringUtilTest.parametersForShouldProperlyFormatMoney" />
         <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.shouldTrimTooLongText" />
       </list>
     </recent_temporary>
   </component>
@@ -490,9 +494,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringUtilTest - 2018.11.04 at 11h 50m 41s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringUtilTest - 2018.11.04 at 11h 51m 50s.xml">
       <configuration name="StringUtilTest" configurationId="JUnit" />
     </history-entry>
@@ -520,12 +521,15 @@
     <history-entry file="StringUtilTest_shouldProperlyFormatMoney - 2018.11.04 at 13h 12m 06s.xml">
       <configuration name="StringUtilTest.shouldProperlyFormatMoney" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrayTest - 2018.11.04 at 14h 47m 58s.xml">
+      <configuration name="TrayTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25302014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -535,7 +539,7 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -700,30 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#rowsCount#0;class#VendingMachine#0" />
-            <element signature="method#colsCount#0;class#VendingMachine#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/util/StringUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -734,13 +714,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/vending/model/TrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#printLowerBoundary#0;class#CustomerOperationController#0" />
           </folding>
         </state>
       </provider>
@@ -751,6 +730,45 @@
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/controller/CustomerOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printLowerBoundary#0;class#CustomerOperationController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/Tray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/vending/model/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#rowsCount#0;class#VendingMachine#0" />
+            <element signature="method#colsCount#0;class#VendingMachine#0" />
           </folding>
         </state>
       </provider>

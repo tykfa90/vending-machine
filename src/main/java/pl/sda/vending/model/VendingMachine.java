@@ -95,4 +95,23 @@ public class VendingMachine {
             return Optional.empty();
         }
     }
+
+    public Optional<Product> buyProductWithSymbol(String traySymbol) {
+        if (traySymbol.length() != 2) {
+            return Optional.empty();
+        }
+        char symbolLetter = traySymbol.toUpperCase().charAt(0);
+        char symbolNumber = traySymbol.toUpperCase().charAt(1);
+        int rowNo = symbolLetter - 'A';
+        int colNo = symbolNumber - '1';
+        if (rowNo < 0 || rowNo >= rowsCount || colNo < 0 || colNo >= colsCount) {
+            return Optional.empty();
+        }
+        Tray tray = trays[rowNo][colNo];
+        if (tray == null) {
+            return Optional.empty();
+        } else {
+            return tray.buyProduct();
+        }
+    }
 }

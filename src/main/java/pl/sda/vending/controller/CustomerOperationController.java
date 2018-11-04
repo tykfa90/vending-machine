@@ -62,9 +62,9 @@ public class CustomerOperationController {
     }
 
     private void printName(int rowNo, int colNo) {
-        Optional<String> productPrice = machine.productNameAtPosition(rowNo, colNo);
-        String formattedPrice = productPrice.orElse("--");
-        System.out.print("|" + StringUtil.adjustText(formattedPrice, trayWidth) + "|");
+        Optional<String> productName = machine.productNameAtPosition(rowNo, colNo);
+        String formattedName = productName.orElse("--");
+        System.out.print("|" + StringUtil.adjustText(formattedName, trayWidth) + "|");
     }
 
     private void printLowerBoundary(int rowNo, int colNo) {
