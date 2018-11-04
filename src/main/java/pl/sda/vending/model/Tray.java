@@ -1,8 +1,7 @@
 package pl.sda.vending.model;
 
-import sun.awt.Symbol;
-
 import java.util.ArrayDeque;
+import java.util.Optional;
 import java.util.Queue;
 
 public class Tray {
@@ -26,6 +25,10 @@ public class Tray {
 
     public Long getPrice() {
         return price;
+    }
+
+    public Optional<String> firstProductName() {
+        return Optional.ofNullable(products.peek()).map(Product::getName);
     }
 
     public static class Builder {

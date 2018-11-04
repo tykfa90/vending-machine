@@ -2,8 +2,6 @@ package pl.sda.vending.model;
 
 import pl.sda.vending.util.Configuration;
 
-import java.lang.invoke.WrongMethodTypeException;
-import java.lang.reflect.Array;
 import java.util.Optional;
 import java.util.Random;
 
@@ -37,13 +35,13 @@ public class VendingMachine {
         trays = new Tray[rowsCount.intValue()][colsCount.intValue()];
 
         for (int rowNo = 0; rowNo < rowsCount; rowNo++) {
-        for (int colNo = 0; colNo < colsCount; colNo++) {
-            if (Math.random() < 0.8) {
-                generateTrayAtPosition(rowNo, colNo);
+            for (int colNo = 0; colNo < colsCount; colNo++) {
+                if (Math.random() < 0.8) {
+                    generateTrayAtPosition(rowNo, colNo);
+                }
             }
         }
     }
-}
 
     private void generateTrayAtPosition(int rowNo, int colNo) {
         Random random = new Random();
@@ -64,8 +62,6 @@ public class VendingMachine {
     }
 
     public Optional<Tray> getTrayAtPosition(int rowNo, int colNo) {
-        //zwróc tackę w optionalu
-        // jak nie istnieje to pusty optional
         try {
             Tray tray = trays[rowNo][colNo];
             Optional<Tray> wrappedTray = Optional.ofNullable(tray);
@@ -86,5 +82,17 @@ public class VendingMachine {
         return configuration.getLongProperty(
                 "machine.size.cols",
                 4L);
+    }
+
+    public Optional<String> productNameAtPosition(int rowNo, int colNo) {
+        // Pobrać z tablicy tackę
+        // pobrać nazwę pierwszego prod.
+        // zwrócić optional
+        Optional<Tray> tray = getTrayAtPosition(rowNo, colNo);
+        if (tray.isPresent()) {
+            return tray.get().firstProductName();
+        } else {
+            return Optional.empty();
+        }
     }
 }
