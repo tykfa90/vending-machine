@@ -37,13 +37,13 @@ public class VendingMachine {
         trays = new Tray[rowsCount.intValue()][colsCount.intValue()];
 
         for (int rowNo = 0; rowNo < rowsCount; rowNo++) {
-            for (int colNo = 0; colNo < colsCount; colNo++) {
-                if (Math.random() < 0.8) {
-                    generateTrayAtPosition(rowNo, colNo);
-                }
+        for (int colNo = 0; colNo < colsCount; colNo++) {
+            if (Math.random() < 0.8) {
+                generateTrayAtPosition(rowNo, colNo);
             }
         }
     }
+}
 
     private void generateTrayAtPosition(int rowNo, int colNo) {
         Random random = new Random();
@@ -51,29 +51,16 @@ public class VendingMachine {
         char symbolLetter = (char) ('A' + rowNo);
         int symbolNumber = colNo + 1;
         String symbol = "" + symbolLetter + symbolNumber;
+
+        Tray.Builder trayBuilder = Tray.builder(symbol).price(price);
         int productProbability = random.nextInt(10);
-        if (productProbability < 1) {
-            Tray tray = Tray
-                    .builder(symbol)
-                    .price(price)
-                    .product(new Product("Product " + symbol))
-                    .product(new Product("Product " + symbol))
-                    .build();
-            trays[rowNo][colNo] = tray;
-        } else if (productProbability < 0.5) {
-            Tray tray = Tray
-                    .builder(symbol)
-                    .price(price)
-                    .product(new Product("Product " + symbol))
-                    .build();
-            trays[rowNo][colNo] = tray;
-        } else {
-            Tray tray = Tray
-                    .builder(symbol)
-                    .price(price)
-                    .build();
-            trays[rowNo][colNo] = tray;
+        if (productProbability < 5) {
+            trayBuilder = trayBuilder.product(new Product("Product" + symbol));
         }
+        if (productProbability < 1) {
+            trayBuilder = trayBuilder.product(new Product("Product" + symbol));
+        }
+        trays[rowNo][colNo] = trayBuilder.build();
     }
 
     public Optional<Tray> getTrayAtPosition(int rowNo, int colNo) {
