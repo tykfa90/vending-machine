@@ -1,5 +1,6 @@
 package pl.sda.vending.controller;
 
+import pl.sda.vending.model.Product;
 import pl.sda.vending.model.Tray;
 import pl.sda.vending.model.VendingMachine;
 import pl.sda.vending.util.StringUtil;
@@ -41,6 +42,10 @@ public class CustomerOperationController {
             }
             System.out.println();
         }
+    }
+
+    public Optional<Product> buyProductForSymbol(String traySymbol) {
+        return machine.buyProductWithSymbol(traySymbol);
     }
 
     private void printUpperBoundary(int rowNo, int colNo) {

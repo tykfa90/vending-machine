@@ -26,7 +26,7 @@ public class VendingMachine {
             throw new IllegalArgumentException("Row count " + rowsCount + " is invalid");
         }
         if (colsCount > 9) {
-            throw new IllegalArgumentException("Row count " + rowsCount + " is invalid");
+            throw new IllegalArgumentException("Row count " + colsCount + " is invalid");
         }
 
         //stworzyć tablicę 2 wymiarową
